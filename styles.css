@@ -19,9 +19,13 @@ body{
 }
 
 .left-section{
+    /* grid-column: span 2;
+    height: 100%;
+    background-color: #00324A; */
     grid-column: span 2;
     height: 100%;
-    background-color: #00324A;
+    background: linear-gradient(to bottom, #3f306d, #0074E4);
+    color: white;
 }
 .right-section{
     grid-column: span 5;
@@ -35,7 +39,7 @@ body{
 }
 .profile{
     width: 100%;
-    border-bottom: 1px solid #002333;
+    border-bottom: 1px solid #1072ac;
 }
 
 .image{
@@ -45,7 +49,7 @@ body{
 .profile img{
     width: 100%;
     border-radius: 50%;
-    border: 8px solid #002333;
+    border: 8px solid #0074E4;
     
 }
 
@@ -274,4 +278,7 @@ body{
     .name{
         font-size: 1.5rem;
     }
+}
+.img1{
+    padding-left: 100px;
 }
